@@ -68,6 +68,9 @@ header {
     .menu li a:hover {
       color: #EF7F1A; }
 
+.logo-mobile {
+  display: none; }
+
 /*==========  header end  ==========*/
 /*==========  mobile menu  ==========*/
 .mobile-menu {
@@ -87,6 +90,8 @@ header {
     .mobile-menu .menu li {
       width: 100%;
       margin: 0 0 10px; }
+  .mobile-menu .logo {
+    margin: 0 auto; }
 
 .btn-close {
   display: -webkit-box;
@@ -118,5 +123,19 @@ header {
   .btn-close:after {
     -webkit-transform: rotate(135deg);
             transform: rotate(135deg); }
+
+.btn-burger {
+  width: 32px;
+  cursor: pointer;
+  display: none; }
+  .btn-burger span {
+    height: 3px;
+    display: block;
+    width: 100%;
+    margin: 0 0 8px;
+    background: #004665;
+    border-radius: 7px; }
+    .btn-burger span:last-child {
+      margin: 0; }
 
 /*==========  mobile menu end  ==========*/

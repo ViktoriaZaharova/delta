@@ -1,4 +1,65 @@
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
+/*==========  modal  ==========*/
+.modal-dialog {
+  max-width: 500px; }
+
+.modal-content {
+  border: none;
+    border-radius: 20px;
+  padding: 30px;
+  background: #fff; }
+
+.modal-header {
+  border: none;
+    border-radius: 0;
+  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 20px; }
+  .modal-header .close {
+    opacity: 1;
+    position: absolute;
+    padding: 0;
+    right: 20px;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border: none;
+      border-radius: 0;
+    margin: 0; }
+    .modal-header .close:before, .modal-header .close:after {
+      content: '';
+      position: absolute;
+      left: 12px;
+      top: 0;
+      width: 2px;
+      height: 100%;
+      background: #0C4866;
+      border-radius: 3px; }
+    .modal-header .close:before {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg); }
+    .modal-header .close:after {
+      -webkit-transform: rotate(135deg);
+              transform: rotate(135deg); }
+
+.modal-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  font-size: 24px; }
+
+.modal-body {
+  padding: 0; }
+
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+  width: 100%; }
+  .form button {
+    margin: 0 auto; }
+
+/*==========  modal end  ==========*/
 /*==========  section  ==========*/
 /*==========  section end  ==========*/
