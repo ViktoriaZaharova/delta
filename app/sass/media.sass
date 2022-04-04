@@ -3,7 +3,7 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px)
+@media only screen and (max-width: 1200px)
   .home-slider__img
     left: auto
     right: -200px
@@ -29,7 +29,7 @@
 
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px)
+@media only screen and (max-width: 992px)
   .home-slider__title
     font-size: 40px
 
@@ -40,13 +40,15 @@
     right: -200px
 
   .home
-    margin: 40px 0 60px
+    margin: 210px 0 60px
 
   .logo
     max-width: 300px
 
+  .header-top
+    margin-bottom: 20px
+
   .menu
-    margin: 20px 0 0
     font-size: 12px
 
 
@@ -55,9 +57,17 @@
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px)
+@media only screen and (max-width: 768px)
   header
     padding: 20px 0
+
+  .fixed
+    padding: 20px 0
+    .header-top
+      display: flex
+
+  .header-top
+    margin-bottom: 0
 
   .btn
     padding: 10px 20px
@@ -69,6 +79,7 @@
 
   .home-slider-item
     padding: 0 0 100px
+
     .box-text
       max-width: 200px
       font-size: 16px
@@ -79,8 +90,10 @@
 
   .logo
     max-width: 130px
+
     img
       display: none
+
     .logo-mobile
       display: block
 
@@ -93,6 +106,7 @@
   .contacts-box
     font-size: 20px
     line-height: normal
+
     p
       margin: 0 0 24px
 
@@ -105,11 +119,14 @@
   .advantages-box
     font-size: 16px
     margin: 0 0 30px
+
     h3
       font-size: 24px
+
     &__icon
       width: 90px
       height: 90px
+
     &__body
       width: calc(100% - 90px)
       padding: 0 0 0 20px
@@ -122,7 +139,7 @@
     margin: 0 10px 0 auto
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 576px)
+@media only screen and (max-width: 576px)
   h2
     font-size: 20px
 
@@ -136,6 +153,7 @@
 
   .documents
     margin: 24px 0
+
     h2
       margin: 0 auto 6px
 
@@ -144,23 +162,24 @@
 
   .documents-box
     margin: 0 auto 24px
+
     &:last-child
       margin: 0 auto
 
   .transport-factor__img
     height: 240px
 
-  .transport-factor__map
-    height: 315px
-
   .advantages
     padding: 32px 0 173px
+
     &:after
       width: 568px
       height: 138px
       bottom: 14px
+
     &:before
       height: 66px
+
     h2
       margin: 0 auto 30px
 
@@ -173,8 +192,10 @@
       margin: 0 auto
       width: 100px
       height: 100px
+
     h3
       font-size: 20px
+
     &__body
       text-align: center
       width: 100%
@@ -182,9 +203,11 @@
 
   .price
     padding: 40px 0
+
     h2
       max-width: 220px
       margin: 0 auto 24px
+
     .btn
       margin: 10px auto 0
 
@@ -194,9 +217,11 @@
 
   .about-product
     padding: 37px 0 0
+
     h2
       margin: 0 auto 24px
       max-width: 220px
+
     .box-text
       font-size: 14px
       line-height: normal
@@ -210,13 +235,17 @@
     justify-content: center
 
   header
-    padding: 64px 0 22px
+    padding: 20px 0
+    position: relative
     .btn
       margin: 0 auto
 
+  .fixed
+    padding: 20px 0
+
   .btn-burger
     position: absolute
-    top: -40px
+    top: 0
     right: 24px
     margin: 0
 
@@ -238,11 +267,13 @@
 
   .home-slider__content
     padding: 0 15px
+
     .box-text
       font-size: 14px
       line-height: 17px
       margin: 0
       max-width: none
+
     .btn
       margin: 290px auto 0
 
@@ -251,16 +282,18 @@
     max-width: 573px
     min-width: 573px
     left: 50%
-    transform: translate(-50%,0)
+    transform: translate(-50%, 0)
     top: 40px
 
-@media only screen and (max-width : 480px)
+@media only screen and (max-width: 480px)
   .transport-factor__img
     height: 136px
 
+  .modal-content
+    padding: 20px
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 360px)
+
+@media only screen and (max-width: 360px)
   .about-product
     .box-text
       font-size: 11px

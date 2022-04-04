@@ -57,7 +57,7 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-12 d-flex flex-wrap align-items-center">
+      <div class="col-12 header-top">
         <a href="index.html" class="logo"><img src="img/logo.svg" alt="">
           <img src="img/logo-mobile.svg" alt="" class="logo-mobile">
         </a>
@@ -105,7 +105,7 @@
                   <p>Доставим в кратчайшие сроки</p>
                 </div>
 
-                <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#orderModal">СДЕЛАТЬ ЗАКАЗ</a>
+                <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callbackModal">СДЕЛАТЬ ЗАКАЗ</a>
               </div>
               <div class="home-slider__img"><img src="img/slide1.png" alt=""></div>
             </div>
@@ -119,7 +119,7 @@
                   <p></p>
                 </div>
 
-                <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#orderModal">СДЕЛАТЬ ЗАКАЗ</a>
+                <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callbackModal">СДЕЛАТЬ ЗАКАЗ</a>
               </div>
               <div class="home-slider__img"><img src="img/slide3.png" alt=""></div>
             </div>
@@ -136,7 +136,7 @@
                   <p>ДОСТАВИМ В КРАТЧАЙШИЕ СРОКИ</p>
                 </div>
 
-                <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#orderModal">СДЕЛАТЬ ЗАКАЗ</a>
+                <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callbackModal">СДЕЛАТЬ ЗАКАЗ</a>
               </div>
               <div class="home-slider__img"><img src="img/slide2.png" alt=""></div>
             </div>
@@ -167,42 +167,35 @@
     </div>
   </div>
 
-  <div class="product-img"><img src="img/prod-bg.jpeg" alt=""></div>
 </section>
 
-<section class="price bg-accent" id="price">
+<div class="price bg-accent" id="price">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h2>СТОИМОСТЬ ПРОДУКЦИИ</h2>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4 mb-30">
+
+      <div class="col-12 col-sm-6 col-lg-3 mb-30">
         <a href="img/product1.jpeg" class="product-type" data-fancybox="product"><img src="img/product1.jpeg"
                                                                                       alt=""></a>
       </div>
-      <div class="col-12 col-sm-6 col-lg-4 mb-30">
-        <a href="img/product2.jpeg" class="product-type" data-fancybox="product"><img src="img/product2.jpeg"
+      <div class="col-12 col-sm-6 col-lg-3 mb-30">
+        <a href="img/5-20.jpeg" class="product-type" data-fancybox="product"><img src="img/5-20.jpeg"
                                                                                       alt=""></a>
       </div>
-      <div class="col-12 col-sm-6 col-lg-4 mb-30">
-        <a href="img/product3.jpeg" class="product-type" data-fancybox="product"><img src="img/product3.jpeg"
+      <div class="col-12 col-sm-6 col-lg-3 mb-30">
+        <a href="img/20-40.png" class="product-type" data-fancybox="product"><img src="img/20-40.png"
                                                                                       alt=""></a>
       </div>
-      <div class="col-12 col-sm-6 col-lg-4 mb-30">
-        <a href="img/product4.png" class="product-type" data-fancybox="product"><img src="img/product4.png"
-                                                                                     alt=""></a>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4 mb-30">
-        <a href="img/product5.png" class="product-type" data-fancybox="product"><img src="img/product5.png"
+      <div class="col-12 col-sm-6 col-lg-3 mb-30">
+        <a href="img/40-70.jpeg" class="product-type" data-fancybox="product"><img src="img/40-70.jpeg"
                                                                                      alt=""></a>
       </div>
 
       <div class="col-12">
-        <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#orderModal">СДЕЛАТЬ ЗАКАЗ</a>
+        <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callbackModal">СДЕЛАТЬ ЗАКАЗ</a>
       </div>
     </div>
   </div>
-</section>
+</div>
 
 <section class="advantages" id="advantages">
   <div class="container">
@@ -271,14 +264,33 @@
   </div>
 </section>
 
-<section class="transport-factor" id="transport-factor">
-  <iframe class="transport-factor__map"
-          src="https://yandex.ru/map-widget/v1/?ll=40.159450%2C47.959924&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D40.058%252C47.895%26spn%3D0.899%252C0.463%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%25A0%25D0%25BE%25D1%2581%25D1%2582%25D0%25BE%25D0%25B2%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F%2520%25D0%25BE%25D0%25B1%25D0%25BB%25D0%25B0%25D1%2581%25D1%2582%25D1%258C%252C%2520%25D0%259A%25D1%2580%25D0%25B0%25D1%2581%25D0%25BD%25D0%25BE%25D1%2581%25D1%2583%25D0%25BB%25D0%25B8%25D0%25BD%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2520%25D1%2580%25D0%25B0%25D0%25B9%25D0%25BE%25D0%25BD&z=10.41"
-          frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+<div class="transport-factor" id="transport-factor">
+  <img src="img/map.jpg" alt="">
+</div>
 
-  <div class="transport-factor__img"><img src="img/image.jpeg" alt=""></div>
-</section>
+<div class="clients">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-30">
+        <div class="clients-box"><img src="img/clients1.png" alt=""></div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-30">
+        <div class="clients-box"><img src="img/clients2.png" alt=""></div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-30">
+        <div class="clients-box"><img src="img/clients3.jpg" alt=""></div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-30">
+        <div class="clients-box"><img src="img/clients4.png" alt=""></div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-30">
+        <div class="clients-box"><img src="img/clients5.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="transport-factor__img"><img src="img/image.jpeg" alt=""></div>
 
 <section class="documents" id="documents">
   <div class="container">
@@ -287,9 +299,17 @@
         <h2>ДОКУМЕНТЫ</h2>
 
         <div class="documents-wrapper">
-          <a href="img/document1.pdf" data-fancybox="image" class="documents-box"><img src="img/document1.png"
+          <a href="img/document1.pdf" target="_blank" class="documents-box"><img src="img/document1.png"
                                                                                        alt=""></a>
-          <a href="img/document1.pdf" data-fancybox="image" class="documents-box"><img src="img/document1.png"
+          <a href="img/document2.pdf" target="_blank" class="documents-box"><img src="img/document2.png"
+                                                                                       alt=""></a>
+          <a href="img/document3.pdf" target="_blank" class="documents-box"><img src="img/document3.png"
+                                                                                       alt=""></a>
+          <a href="img/document4.pdf" target="_blank" class="documents-box"><img src="img/document4.png"
+                                                                                       alt=""></a>
+          <a href="img/document5.pdf" target="_blank" class="documents-box"><img src="img/document5.png"
+                                                                                       alt=""></a>
+          <a href="img/document6.pdf" target="_blank" class="documents-box"><img src="img/document6.png"
                                                                                        alt=""></a>
         </div>
       </div>
@@ -341,11 +361,29 @@
           </label>
 
           <label>
-            <input type="text" placeholder="Телефон" name="phone">
+            <input type="text" placeholder="Телефон" name="phone" required>
           </label>
 
           <button type="submit" class="btn btn-accent">Отправить</button>
         </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="thanksModal" tabindex="-1" aria-labelledby="thanksModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Спасибо за заявку!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="box-text text-center">
+          <p>Ваша заявка принята! </p>
+          <p>Наши менеджеры свяжутся с Вами в ближайшее время.</p>
+        </div>
       </div>
 
     </div>
