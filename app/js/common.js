@@ -6,7 +6,9 @@ $(window).on('load resize', function() {
             infinite: true,
             slidesToShow: 1,
             arrows: false,
-            fade: true
+            fade: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
         });
     } else {
         $(".home-slider.slick-initialized").slick("unslick");
