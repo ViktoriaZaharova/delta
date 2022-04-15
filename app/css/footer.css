@@ -60,6 +60,19 @@
   .form button {
     margin: 0 auto; }
 
+.btn-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5;
+  font-size: 12px;
+  padding: 10px 15px;
+  background: #EF7F1A;
+  color: #fff; }
+  .btn-fixed:hover {
+    background: #0C4866;
+    color: #fff; }
+
 /*==========  modal end  ==========*/
 /*==========  section  ==========*/
 /*==========  section end  ==========*/

@@ -36,7 +36,8 @@
   .menu {
     font-size: 12px; }
   .documents-box {
-    margin: 0 auto 40px; } }
+    width: 25%;
+    height: auto; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -82,7 +83,7 @@
   .documents {
     margin: 40px 0; }
   .documents-box {
-    margin: 0 auto 10px; }
+    width: 33.3%; }
   .advantages-box {
     font-size: 16px;
     margin: 0 0 30px; }
@@ -113,15 +114,9 @@
     margin: 24px 0; }
     .documents h2 {
       margin: 0 auto 6px; }
-  .documents-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
   .documents-box {
-    margin: 0 auto 24px; }
-    .documents-box:last-child {
-      margin: 0 auto; }
+    width: 50%;
+    height: auto; }
   .transport-factor__img {
     height: 240px; }
   .advantages {
