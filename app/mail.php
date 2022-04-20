@@ -1,6 +1,6 @@
 <?php
 
-$recepient = "test@mail.ru"; //заменить на свой email
+$recepient = "INFO@DELTA-STONE.RU"; //заменить на свой email
 $sitename = "ООО 'Дельта' - производство щебня";
 
 $name = trim($_POST["name"]);
